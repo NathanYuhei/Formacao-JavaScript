@@ -69,6 +69,10 @@ function merge(list1, list2) {
   }
 
   return new_list;
-}
+} 
 
 console.log(merge(edGalho, edFolha))
+
+module.exports = {
+  merge
+};
